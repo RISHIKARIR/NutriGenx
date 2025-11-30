@@ -1,0 +1,17 @@
+ 
+ //Slide button//
+ <motion.button
+    dragMomentum={false}
+    dragConstraints={{left:0}}
+    onDragEnd ={handleclick}
+     dragElastic={0}
+    drag = "x"
+    whileDrag={{
+    scale: 1.2,
+    boxShadow: "0px 10px 20px rgba(0,0,0,0.2)"}}
+    >
+    <MdArrowForwardIos className="bg-[#6A0081]
+ text-base rounded-full"/></motion.button>Let's Begin</div>
+
+//END//
+
