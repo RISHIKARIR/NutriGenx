@@ -12,10 +12,6 @@ import autoTable from "jspdf-autotable";
 
 
 
-
-
-
-
 // console.log(import.meta.env.VITE_GEMINI_API_KEY);
 
 export default function Results(){
@@ -34,12 +30,6 @@ const goals = {
     Maintainweight:`Diet:-Balanced nutrition, Portion-controlled [${userdata.diet}]`,
     Generalwellness:`Diet:-Wholesome , Well-balanced [${userdata.diet}]`
 };
-
-
-
-
-
-
 
 
 const generatePdf = ()=>{
@@ -119,10 +109,6 @@ const generatePdf = ()=>{
     alert(`Failed to generate PDF: ${error.message}`);
 }
 }
-
-
-
-
 
 useEffect(()=>{
 AOS.init({
