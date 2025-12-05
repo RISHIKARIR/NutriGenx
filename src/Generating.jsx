@@ -2,7 +2,7 @@ import { useState } from "react"
 import { useEffect } from "react"
 import { useNavigate } from "react-router-dom";
 import { useLocation } from "react-router-dom";
-import { generateMealPlan } from './services/geminiservices.js';
+import { generateMealPlan } from '/src/services/geminiservices.js';
 
 
 
@@ -11,7 +11,6 @@ export default function Generating(){
 const lines = ["Analyzing height/weight...",
 "Understanding your diet...",
 "Designing your diet..."]
-
 
 
 
