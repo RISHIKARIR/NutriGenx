@@ -40,7 +40,7 @@ const userdata = location.state;
 useEffect(()=>{
 async function fetchmealdata(){
 try{
-    console.log("API Key:", import.meta.env.VITE_GEMINI_API_KEY);
+   
     const plan = await generateMealPlan(userdata);
     setmealplan(plan);
 
@@ -118,6 +118,7 @@ NutriGenx
 
 </>
 )
+
 
 
 }
