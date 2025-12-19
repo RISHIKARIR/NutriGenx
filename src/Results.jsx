@@ -19,7 +19,7 @@ export default function Results(){
 
 const location = useLocation();
     const userdata = location.state;
-    console.log(userdata);
+
 
 
 
@@ -274,6 +274,7 @@ NutriGenx
 </>
 
 )
+
 
 
 }
