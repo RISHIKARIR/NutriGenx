@@ -87,7 +87,6 @@ const navigate = useNavigate();
 
 function submitform(e){
   e.preventDefault();
-  console.log(formdata);
   navigate("/Generate", {state : formdata});
 }
 
