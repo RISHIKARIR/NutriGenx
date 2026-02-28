@@ -6,7 +6,7 @@ const genAI = new GoogleGenerativeAI(import.meta.env.VITE_GEMINI_API_KEY);
 
 export async function generateMealPlan(userData){
 
-const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash-preview-09-2025" });
+const model = genAI.getGenerativeModel({  model: "gemini-2.5-flash"  });
 
 const prompt = `Generate a indian personalized meal plan for:
 - Name: ${userData.name}
@@ -83,5 +83,6 @@ return mealplan;
 
 
 }
+
 
 
